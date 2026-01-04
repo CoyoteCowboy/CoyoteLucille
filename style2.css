@@ -1,0 +1,80 @@
+html, body {
+    cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+    background-image: url('https://i.pinimg.com/originals/73/87/04/7387049b0389aadfa111e670929afb64.jpg');
+    background-size: 1500px;
+    background-color: #25360F;
+    margin: 5;
+}
+
+.box {
+  width: 1300px;
+  margin: 0px auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:200px auto;
+}
+
+a {
+  font-size: 20px;
+  color: #f7ebcf;
+  cursor: url("https://files.catbox.moe/xenunt.png"), auto;
+}
+
+nav, main, footer, sidebarone, sidebartwo {
+  padding: 20px;
+  border-radius: 2px;
+  font-family: serif;
+  color: #f7ebcf;
+  font-size: 20px;
+}
+
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  text-align: center;
+  height: 200px;
+  padding: 20px;
+}
+
+nav {
+  border: #25360F 5px solid;
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  background-color: #515431;
+}
+
+main {
+  border: #422A08 5px solid;
+  grid-row: 2 / 5;
+  grid-column: 2 / 3;
+  background-color: #95724a;
+  width: 800px;
+}
+
+sidebarone {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  background-image: url('https://files.catbox.moe/8662t5.png');
+  background-size: 150px;
+  border: #422A08 5px solid;
+  width: 200px;
+}
+
+sidebartwo {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  background-color: #515431;
+  border: #25360F 5px solid;
+  width: 200px;
+}
+
+footer {
+  border: #291B05 5px solid;
+  grid-row: 5 / 6;
+  grid-column: 2 / 3;
+  text-align: center;
+  background-color: #55412b;
+  color: #f7ebcf;
+}
+
