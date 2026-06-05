@@ -1,0 +1,256 @@
+html, body {
+    cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+    background-image: url('https://i.pinimg.com/originals/73/87/04/7387049b0389aadfa111e670929afb64.jpg');
+    background-size: 1540px;
+    background-color: #25360F;
+    margin: 0;
+    background-position: fixed;
+    font-family: Georgia, serif;
+}
+
+
+/* Tooltip container */
+.tooltip img{
+  position: absolute;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden; /* Hidden by default */
+  background-color: #AEBD8F;
+  color: #485925;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 3; /* Ensure tooltip is displayed above content */
+  left: 500px;
+  top: 50px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+  
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover img{
+  transform: scale(110%);
+}
+
+a:hover img{
+  transform: scale(110%);
+}
+
+.box {
+  width: 1300px;
+  margin: 0px auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:200px auto;
+  font-family: Georgia, serif;
+}
+
+.scrollbox {
+  background-color: #805B37;
+  max-height: 600px;
+  overflow: auto;
+  color: #694A2C;
+  border: #422A08 5px solid;
+  border-radius: 2px;
+  scrollbar-color: #422A08 #805B37;
+  padding: 10px;
+}
+
+.tabscrollbox {
+  max-height: 600px;
+  overflow: auto;
+  scrollbar-color: #422A08 #805B37;
+}
+
+.tab {
+  overflow: hidden;
+  color: #f7ebcf;
+  cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  float: left;
+  background: transparent;
+  border: #593B0C 3px solid;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s;
+  font-family: Georgia, serif;
+font-variant: normal;
+color: #593B0C;
+  margin: 5px;
+  cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+  text-align: center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #B38756;
+  cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #B38756;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  margin: 10px;
+  text-align: center;
+}
+
+a {
+  cursor: url("https://files.catbox.moe/9mcdm2.png"), auto;
+}
+
+nav, sidebarone, sidebartwo {
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  background-image: url('https://i.imgur.com/BspyVOP.png');
+}
+
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  text-align: center;
+  height: 10px;
+  padding: 20px;
+}
+
+nav {
+  border: #25360F 5px solid;
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  background-color: #515431;
+  padding: 20px;
+  color: #f7ebcf;
+}
+
+nav a {
+  color: #f7ebcf;
+}
+
+main {
+  grid-row: 2 / 5;
+  grid-column: 2 / 3;
+width: 800px;
+height: 600px;
+max-height: 600px;
+border-radius: 2px;
+background-color: #8A4629;
+border: #4F2110 5px solid;
+  font-family: Georgia, serif;
+color: #86584A;
+font-weight: 400;
+
+background-image: url('https://i.imgur.com/BspyVOP.png');
+padding: 10px;
+}
+
+#mainline{
+background-image: url('https://i.imgur.com/BspyVOP.png');
+width: 50px;
+height: 620px;
+border-radius: 2px;
+background-color: #8A4629;
+border: #4F2110 5px solid;
+position: absolute;
+top: 60px;
+left: 700px;
+}
+
+
+
+#pagebase{
+background-color: #E6DACA;
+background-image: url('https://i.imgur.com/BspyVOP.png');
+border-radius: 2px;
+width: 786px;
+height: 590px;
+padding: 2px;
+border: 5px solid #AB977B;
+
+}
+
+
+
+#leftpage{
+  height: 580px;
+  width: 363px;
+position: absolute;
+top: 80px;
+left: 350px;
+
+  background-color: #E6DACA;
+background-image: url('https://file.garden/aayu7b0kShQ_xI0d/linedppaer.png');
+background-size: 500px;
+
+border-radius: 2px;
+padding: 5px;
+border: 5px solid #AB977B;
+
+  font-family: Georgia, serif;
+color: #593B0C;
+text-align: center;
+
+overflow: auto;
+scrollbar-color: #AB977B transparent;
+}
+  
+#rightpage{
+  height: 580px;
+  width: 385px;
+position: absolute;
+top: 80px;
+left: 730px;
+
+border-radius: 2px;
+padding: 5px;
+border: 5px solid #AB977B;
+
+background-color: #E6DACA;
+background-image: url('https://file.garden/aayu7b0kShQ_xI0d/linedppaer.png');
+background-size: 500px;
+
+font-family: Georgia, serif;
+color: #593B0C;
+text-align: center;
+
+overflow: auto;
+scrollbar-color: #AB977B transparent;
+}
+
+  
+#rightpage, #leftpage, .tabcontent, a{
+  color: #593B0C;
+}
+
+sidebarone a{
+  color: #f7ebcf;
+}
+
+sidebarone {
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
+  background-image: url('https://files.catbox.moe/8662t5.png');
+  background-size: 150px;
+  border: #422A08 5px solid;
+  padding: 20px;
+  color: #f7ebcf;
+}
